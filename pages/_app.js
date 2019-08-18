@@ -4,6 +4,8 @@ import { ApolloProvider } from '@apollo/react-hooks'
 import withApolloClient from '../lib/with-apollo-client'
 
 class MyApp extends App {
+  static displayName = "MyApp"
+
   render () {
     const { Component, pageProps, apolloClient } = this.props
     return (
