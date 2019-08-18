@@ -11,6 +11,8 @@
     "@apollo/react-ssr": "3.0.0",
     "apollo-boost": "0.4.4",
     "apollo-link-http": "^1.5.15",
+    "apollo-link-context": "^1.0.18",
+    "cookie": "^0.4.0",
     "graphql": "^14.0.2",
     "isomorphic-unfetch": "^3.0.0",
     "next": "latest",
